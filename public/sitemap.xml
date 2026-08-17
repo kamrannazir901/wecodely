@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://wecodely.com/</loc>
+    </url>
+
+    <url>
+        <loc>https://wecodely.com/web-development</loc>
+    </url>
+
+    <url>
+        <loc>https://wecodely.com/performance-marketing</loc>
+    </url>
+
+    <url>
+        <loc>https://wecodely.com/about</loc>
+    </url>
+
+    <url>
+        <loc>https://wecodely.com/contact</loc>
+    </url>
+
+    <url>
+        <loc>https://wecodely.com/privacy-policy</loc>
+    </url>
+
+    <url>
+        <loc>https://wecodely.com/terms-and-conditions</loc>
+    </url>
+
+</urlset>

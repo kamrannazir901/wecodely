@@ -1,0 +1,29 @@
+Project: Wecodely Website
+
+Rules:
+- Laravel Blade project.
+- Tailwind CSS via CDN.
+- Use only Tailwind utility classes.
+- Use the predefined Tailwind brand colors (primary, primary-700, etc.). Never hardcode brand colors.
+- Inter is already applied globally. Never add custom font-family classes.
+- Design should be modern, premium, minimal, and conversion-focused.
+- Keep layouts clean with generous whitespace.
+- Make everything fully responsive using mobile-first Tailwind classes.
+- Use semantic HTML.
+- Keep components reusable and maintainable if need.
+- No inline CSS.
+- No custom CSS unless explicitly requested.
+- No JavaScript unless required.
+- Output clean, production-ready Blade/HTML code only.
+
+
+
+users
+  │
+  ├── leads
+  │     ├── lead_notes
+  │     ├── lead_follow_ups
+  │     ├── lead_activities
+  │     └── lead_source
+  │
+  └── assignments
