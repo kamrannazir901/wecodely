@@ -1,16 +1,16 @@
 @extends('layouts.app')
 
-@section('title', 'About Wecodely | Performance Marketing & Web Development')
+@section('title', 'About Wecodely | How We Help Businesses Online')
 
 @section('meta_description',
-    'Wecodely helps businesses grow online through performance marketing and websites
-    that convert. Learn who we are and how we work.')
+    'Learn about Wecodely, how we work with businesses, and why we focus on practical
+    performance marketing, clear websites and honest recommendations.')
 
-@section('og_title', 'About Wecodely')
+@section('og_title', 'About Wecodely | How We Work With Businesses')
 
 @section('og_description',
-    'Learn who we are, how we work, and why we focus on honest, results-driven marketing
-    and web development.')
+    'Learn how Wecodely approaches marketing and website projects, from understanding the
+    business first to recommending only what actually makes sense.')
 
 @section('content')
 

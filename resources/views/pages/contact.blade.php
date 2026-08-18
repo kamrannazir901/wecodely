@@ -1,15 +1,14 @@
 @extends('layouts.app')
 
-@section('title', 'Contact Wecodely')
+@section('title', 'Contact Wecodely | Get in Touch')
 
-@section('meta_description',
-    'Get in touch with Wecodely for performance marketing, website development, or
-    general questions. Reach us by email, WhatsApp, or social media.')
+@section('meta_description', 'Have a question about performance marketing or website development? Contact Wecodely by
+    WhatsApp, email or our contact form and tell us what you need.')
 
-@section('og_title', 'Contact Wecodely')
+@section('og_title', 'Contact Wecodely | Let’s Talk About Your Business')
 
-@section('og_description',
-    'Reach out to Wecodely by email, WhatsApp, or social media.')
+@section('og_description', 'Have a question or need help with your marketing or website? Get in touch with Wecodely and
+    tell us what you are working on.')
 
 @section('content')
 

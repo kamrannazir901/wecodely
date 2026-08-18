@@ -1,16 +1,16 @@
 @extends('layouts.app')
 
-@section('title', 'Website Development for Businesses | Wecodely')
+@section('title', 'Business Website Development Services | Wecodely')
 
 @section('meta_description',
-    'Get a professional website that helps people understand your business, trust you, and
-    take the next step. Free revisions until you are happy. Starting Rs 25,000.')
+    'Wecodely builds clear, professional websites for businesses that explain what you offer,
+    answer customer questions and make it easier to get enquiries.')
 
-@section('og_title', 'A Website That Helps Your Business Get Chosen | Wecodely')
+@section('og_title', 'Business Websites Built Around Your Customers | Wecodely')
 
 @section('og_description',
-    'Professional websites for businesses, ecommerce stores and professionals. Clear, easy to
-    use, and built around what your customers need.')
+    'Professional business websites that clearly explain what you offer and make it easier for
+    the right customers to understand your business and take the next step.')
 
     @php
         $faqs = [
@@ -83,12 +83,12 @@
                 {{-- LEFT --}}
                 <div>
 
-                    <div
+                    <p
                         class="bg-primary/5 text-primary border-primary/20 inline-flex items-center rounded-full border px-4 py-2 text-xs font-semibold">
 
-                        New Business Offer: 15% Off Your Website
+                        20% Off Your New Website
 
-                    </div>
+                    </p>
 
                     <h1
                         class="mt-5 max-w-3xl text-4xl font-bold leading-[1.08] tracking-tight text-gray-900 sm:text-5xl lg:text-[3.7rem]">

@@ -1,16 +1,16 @@
 @extends('layouts.app')
 
-@section('title', 'Performance Marketing for Businesses | Wecodely')
+@section('title', 'Performance Marketing Services for Businesses | Wecodely')
 
 @section('meta_description',
-    'Wecodely finds where your marketing is losing customers and fixes it, from
-    targeting to your website to tracking. Free audit before you commit to anything.')
+    'Improve your online advertising with better targeting, tracking and campaign decisions.
+    Wecodely helps businesses find what is wasting budget and what needs fixing.')
 
-@section('og_title', 'Performance Marketing for Businesses | Wecodely')
+@section('og_title', 'Performance Marketing Services for Businesses | Wecodely')
 
 @section('og_description',
-    'We find where your ad budget is leaking and fix it, so more of your traffic
-    actually turns into sales and enquiries.')
+    'Not getting enough from your advertising? We review your campaigns, targeting, tracking and
+    customer journey to find what needs improvement.')
 
     @php
 
@@ -104,8 +104,11 @@
                 {{-- LEFT --}}
                 <div>
 
-                    <p class="text-primary text-sm font-semibold">
-                        Free Marketing Audit, No Payment Required First
+                    <p
+                        class="bg-primary/5 text-primary border-primary/20 inline-flex items-center rounded-full border px-4 py-2 text-xs font-semibold">
+
+                        20% Off Your First Month
+
                     </p>
 
                     {{-- HOOK (Problem) --}}

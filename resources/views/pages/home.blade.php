@@ -1,16 +1,16 @@
 @extends('layouts.app')
 
-@section('title', 'Wecodely | Performance Marketing & Websites for Businesses')
+@section('title', 'Performance Marketing & Business Websites | Wecodely')
 
 @section('meta_description',
-    'Wecodely helps businesses improve their online marketing and websites with practical,
-    honest advice and work based on what their business actually needs.')
+    'Wecodely helps businesses improve their online marketing and websites. We fix advertising,
+    tracking and website problems that can cost you customers.')
 
-@section('og_title', 'Wecodely | Performance Marketing & Websites for Businesses')
+@section('og_title', 'Performance Marketing & Business Websites | Wecodely')
 
 @section('og_description',
-    'Performance marketing and business websites without unnecessary work, confusing advice or
-    guaranteed-results promises.')
+    'Improve your advertising and website with practical, business focused help from Wecodely.
+    Start with a free audit and no commitment.')
 
     @php
 
@@ -121,8 +121,11 @@
                 {{-- LEFT --}}
                 <div>
 
-                    <p class="text-primary text-sm font-semibold">
-                        Websites & Performance Marketing
+                    <p
+                        class="bg-primary/5 text-primary border-primary/20 inline-flex items-center rounded-full border px-4 py-2 text-xs font-semibold">
+
+                        Is Your Marketing Actually Working?
+
                     </p>
 
                     <h1
@@ -148,7 +151,7 @@
                             New Business Offer
                         </p>
 
-                        <p class="text-primary mt-1 text-2xl font-bold">
+                        <p class="text-primary mt-1 text-xl font-bold md:text-2xl">
                             20% Off Your First Month
                         </p>
 
@@ -216,16 +219,16 @@
             <div class="max-w-2xl">
 
                 <p class="text-primary text-sm font-semibold">
-                    How We Can Help
+                    Our Services
                 </p>
 
                 <h2 class="mt-2 text-3xl font-bold leading-tight text-gray-900 sm:text-4xl">
-                    Start With The Problem You Have.
+                    What Can We Help You Improve?
                 </h2>
 
                 <p class="mt-4 text-base leading-7 text-gray-600">
-                    You don't need to know exactly what is wrong.
-                    Tell us what's happening and we'll help you figure out where to start.
+                    Whether you want more customers from online advertising or need a better
+                    website for your business, we can help.
                 </p>
 
             </div>
@@ -241,12 +244,17 @@
                     </p>
 
                     <h3 class="mt-3 text-2xl font-bold text-gray-900">
-                        Getting clicks, but not enough customers?
+                        Want more from your online advertising?
                     </h3>
 
-                    <p class="mt-3 max-w-xl text-sm leading-6 text-gray-600">
-                        We look at your advertising, targeting, tracking and
-                        customer journey to find where your budget is being lost.
+                    <p class="mt-3 text-sm leading-6 text-gray-600">
+                        We help businesses run and improve advertising on platforms like
+                        Meta, Google, TikTok and Snapchat.
+                    </p>
+
+                    <p class="mt-4 text-sm leading-6 text-gray-600">
+                        We also look at what happens after someone clicks, so your
+                        advertising and website work together.
                     </p>
 
                     <span class="text-primary mt-6 inline-flex items-center gap-1.5 text-sm font-semibold">
@@ -265,12 +273,17 @@
                     </p>
 
                     <h3 class="mt-3 text-2xl font-bold text-gray-900">
-                        Getting visitors, but not enough enquiries?
+                        Need a website for your business?
                     </h3>
 
-                    <p class="mt-3 max-w-xl text-sm leading-6 text-gray-600">
-                        We build clear websites that explain your business,
-                        build confidence and make the next step easier.
+                    <p class="mt-3 text-sm leading-6 text-gray-600">
+                        We build websites for businesses, online stores and service
+                        providers that clearly explain what you offer.
+                    </p>
+
+                    <p class="mt-4 text-sm leading-6 text-gray-600">
+                        We work with platforms like Shopify and WordPress, and can also
+                        build custom websites when needed.
                     </p>
 
                     <span class="text-primary mt-6 inline-flex items-center gap-1.5 text-sm font-semibold">
@@ -297,16 +310,15 @@
             <div class="mx-auto max-w-2xl text-center">
 
                 <p class="text-primary text-sm font-semibold">
-                    Before You Work With Us
+                    Not Ready To Commit?
                 </p>
 
                 <h2 class="mt-2 text-3xl font-bold leading-tight text-gray-900 sm:text-4xl">
-                    You Don't Have To Commit To Anything Yet.
+                    See What Could Be Improved First.
                 </h2>
 
                 <p class="mt-4 text-base leading-7 text-gray-600">
-                    Start with a free look at what you're already doing.
-                    We'll tell you what we find before you decide anything.
+                    Get a free review of your website or campaigns before deciding anything.
                 </p>
 
             </div>
@@ -316,12 +328,11 @@
                 <div class="rounded-2xl border border-gray-200 bg-white p-6">
 
                     <h3 class="text-base font-semibold text-gray-900">
-                        Free Audit
+                        Free Review
                     </h3>
 
                     <p class="mt-2 text-sm leading-6 text-gray-600">
-                        We can review your website, campaigns or both and point out
-                        what we'd look at first.
+                        We'll look at your website, campaigns or both and point out what could be improved.
                     </p>
 
                 </div>
@@ -329,12 +340,11 @@
                 <div class="rounded-2xl border border-gray-200 bg-white p-6">
 
                     <h3 class="text-base font-semibold text-gray-900">
-                        No Pressure
+                        No Obligation
                     </h3>
 
                     <p class="mt-2 text-sm leading-6 text-gray-600">
-                        You can take the recommendations and decide later.
-                        There is no obligation to work with us.
+                        You can review our suggestions and decide for yourself what to do next.
                     </p>
 
                 </div>
@@ -342,12 +352,11 @@
                 <div class="rounded-2xl border border-gray-200 bg-white p-6">
 
                     <h3 class="text-base font-semibold text-gray-900">
-                        Honest Advice
+                        Honest Feedback
                     </h3>
 
                     <p class="mt-2 text-sm leading-6 text-gray-600">
-                        If we don't think you need something, we'll tell you.
-                        We don't want you paying for unnecessary work.
+                        If we don't think you need our help, we'll tell you.
                     </p>
 
                 </div>
@@ -359,12 +368,12 @@
                 <a href="#contact"
                     class="bg-primary hover:bg-primary-700 inline-flex items-center justify-center rounded-xl px-7 py-3.5 text-sm font-semibold text-white transition">
 
-                    Get My Free Audit
+                    Get My Free Review
 
                 </a>
 
                 <p class="mt-3 text-xs text-gray-500">
-                    No payment required. No commitment required.
+                    Free. No payment. No commitment.
                 </p>
 
             </div>
@@ -381,7 +390,7 @@
 
         <div class="mx-auto max-w-7xl px-6">
 
-            <x-section-heading label="Client Feedback" title="What Working With Us Has Been Like"
+            <x-section-heading label="Client Feedback" title="What Clients Say"
                 description="A few words from businesses we have worked with." />
 
             <x-client-feedback :feedbacks="$feedbacks" />
